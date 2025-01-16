@@ -6,7 +6,7 @@ When people use Google Translate, they often want to translate between two langu
 https://github.com/user-attachments/assets/69b61913-bf76-495a-aed3-d9da2c5926a0
 
 # Install
-Install Link: https://chromewebstore.google.com/detail/xxxx
+Install Link: https://chromewebstore.google.com/detail/autoswitch-translate/kehcigeeidbigogmeelggniemgpelgpb
 
 # Support languages
 - [x] Chinese (Simplified)
