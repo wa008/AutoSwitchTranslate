@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "AutoSwitch Translate",
+    "version": "1.0",
+    "description": "Auto switch target language for Google Translate when source language is the same with target language",
+
+    "icons": {
+        "32": "images/icon-32.png",
+        "128": "images/icon-128.png"
+    },
+    
+    "web_accessible_resources": [
+        {
+            "resources": [  ],
+            "matches": [ "https://translate.google.com/*" ]
+        }
+    ],
+
+    "permissions": ["storage"],
+
+    "content_scripts": [{
+        "js": ["content.js"],
+        "matches": [ "https://translate.google.com/*" ]
+    }],
+    "action": {
+      "default_popup": "popup.html"
+    }
+}
