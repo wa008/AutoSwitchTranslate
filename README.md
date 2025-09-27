@@ -11,4 +11,5 @@ Install Link: https://chromewebstore.google.com/detail/autoswitch-translate/kehc
 # Support languages
 - [x] Chinese (Simplified)
 - [x] English
+- [x] Russian
 - [ ] French
