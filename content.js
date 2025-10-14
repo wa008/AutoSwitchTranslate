@@ -126,11 +126,11 @@ function mainFunciton(content) {
 }
 
 // triget when text changes
-document.querySelector('textarea[aria-label="Source text"]').addEventListener('input', function (event) {
+// [aria-label="Source text"]
+document.querySelector('textarea[class="er8xn"]').addEventListener('input', function (event) {
     content = event.target.value;
-    // console.log('content: ', content);
     mainFunciton(content);
 });
 
 // triger when open websites
-mainFunciton(document.querySelector('textarea[aria-label="Source text"]').value)
+mainFunciton(document.querySelector('textarea[class="er8xn"]').value)
