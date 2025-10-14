@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "AutoSwitch Translate",
-    "version": "1.1",
+    "version": "1.2",
     "description": "Auto switch target language for Google Translate when source language is the same with target language",
 
     "icons": {
